@@ -17,6 +17,32 @@ public class AtomFormula implements LiteralFormula {
     @Override
     //TODO implement negate ;)
     public LiteralFormula negate() {
-        return null;
+        NEGAtomFormula a = new NEGAtomFormula();
+        a.setN(getAtom());
+        return a;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        AtomFormula formula = (AtomFormula) o;
+
+        return atom.equals(formula.atom);
+
+    }
+
+    @Override
+    public int hashCode() {
+
+        return atom.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return "AtomFormula{" +
+                "atom='" + atom + '\'' +
+                '}';
     }
 }

@@ -7,20 +7,22 @@ import java.util.List;
  */
 public class Node {
    private String name;
-   private Node father;
    private List<Node> incoming;
    private List<LTLFormula> next;
    private List<LTLFormula> oldF;
    private List<LTLFormula> newF;
 
-   public Node(String name, Node father, List<Node> incoming,  List<LTLFormula> oldF, List<LTLFormula> newF,
+   public Node(String name, List<Node> incoming,  List<LTLFormula> oldF, List<LTLFormula> newF,
                List<LTLFormula> next) {
       this.name = name;
-      this.father = father;
       this.incoming = incoming;
       this.next = next;
       this.oldF = oldF;
       this.newF = newF;
+   }
+
+   public Node() {
+
    }
 
    public String getName() {
@@ -31,13 +33,7 @@ public class Node {
       this.name = name;
    }
 
-   public Node getFather() {
-      return father;
-   }
 
-   public void setFather(Node father) {
-      this.father = father;
-   }
 
    public List<Node> getIncoming() {
       return incoming;
@@ -72,6 +68,14 @@ public class Node {
    }
 
    public void addIncomingNode(Node n) {
+
       incoming.add(n);
+   }
+
+   @Override
+   public String toString() {
+      return "Node{" +
+              "name='" + name + '\'' +
+              '}';
    }
 }

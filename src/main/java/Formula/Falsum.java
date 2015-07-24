@@ -6,6 +6,17 @@ package Formula;
 public class Falsum implements LiteralFormula {
     @Override
     public LiteralFormula negate() {
-        return null;
+        return new Verum();
     }
+    @Override
+   public boolean equals(Object o){
+       if(o instanceof Falsum) return  true;
+       else  return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Falsum";
+    }
+
 }

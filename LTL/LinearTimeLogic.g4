@@ -1,11 +1,14 @@
 grammar LinearTimeLogic;
 
-formula:andformula
+formula: andformula
         |orformula
         |xformula
         |uformula
         |vformula
         | literal
+        |negatedformula
+        |gformula
+        |fformula
         ;
 
  literal: vliteral
@@ -19,9 +22,12 @@ formula:andformula
  negatom: '~' ATOM;
  atom: ATOM;
 
+negatedformula:  '~' formula;
 orformula: '(' formula '|' formula ')';
 andformula:'('formula '&' formula ')';
 xformula:'(' 'X' formula')';
+gformula:'(' 'G' formula')';
+fformula:'(' 'F' formula')';
 uformula:'('formula 'U' formula')';
 vformula:'('formula 'V' formula')';
 ATOM : ('a' .. 'z')+;

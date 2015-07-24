@@ -1,5 +1,6 @@
 import Formula.AtomFormula;
 import Formula.LTLFormula;
+import Formula.NEGFormula;
 import Formula.UFormula;
 import org.junit.Test;
 
@@ -9,7 +10,7 @@ import org.junit.Test;
 public class ParserTests {
 
    @Test
-   public void testparser(){
+   public void testparser1(){
        String f1 = "(a U (a U b))";
        FormulaParser fp = new FormulaParser();
        LTLFormula f1_p = fp.parse(f1);
@@ -24,5 +25,14 @@ public class ParserTests {
        AtomFormula a2 = (AtomFormula) f2.getU2();
        assert(a2.getAtom().equals("b"));
 
+    }
+    @Test
+    public void testparser2(){
+        String f1 = "~(a U (a U b))";
+        FormulaParser fp = new FormulaParser();
+        LTLFormula f1_p = fp.parse(f1);
+        assert(f1_p instanceof NEGFormula);
+        NEGFormula f1_u = (NEGFormula) f1_p;
+        assert(f1_u.getNegatedFormula() instanceof UFormula);
     }
 }

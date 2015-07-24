@@ -1,26 +1,48 @@
 package Formula;
 
 /**
- * Created by svozil on 15.07.15.
+ * Created by alexander on 17.07.15.
  */
-public class NEGFormula implements LiteralFormula {
-    private String n;
+public class NEGFormula implements  LTLFormula {
+    private LTLFormula negatedFormula;
 
-    public NEGFormula(AtomFormula l) {
-        setN(l.getAtom());
+    public NEGFormula(LTLFormula u1) {
+        negatedFormula = u1;
     }
 
+    public NEGFormula() {
 
-    public String getN() {
-        return n;
     }
 
-    public void setN(String n) {
-        this.n = n;
+    public LTLFormula getNegatedFormula() {
+        return negatedFormula;
+    }
+
+    public void setNegatedFormula(LTLFormula negatedFormula) {
+
+        this.negatedFormula = negatedFormula;
     }
 
     @Override
-    public LiteralFormula negate() {
-        return null;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        NEGFormula that = (NEGFormula) o;
+
+        return !(negatedFormula != null ? !negatedFormula.equals(that.negatedFormula) : that.negatedFormula != null);
+
+    }
+
+    @Override
+    public int hashCode() {
+        return negatedFormula != null ? negatedFormula.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return "NEGFormula{" +
+                "negatedFormula=" + negatedFormula +
+                '}';
     }
 }
