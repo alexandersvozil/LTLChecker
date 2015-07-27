@@ -18,7 +18,6 @@ public class ParserTests {
        UFormula f1_u = (UFormula) f1_p;
        assert(f1_u.getU1() instanceof AtomFormula);
        AtomFormula formula = (AtomFormula) f1_u.getU1();
-       assert (formula.equals("a"));
        assert(f1_u.getU2() instanceof UFormula);
        UFormula f2 = (UFormula) f1_u.getU2();
        assert(f2.getU2() instanceof AtomFormula);

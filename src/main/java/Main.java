@@ -14,8 +14,15 @@ public class Main {
             return;
         }
         LTLCheck ltlCheck = new LTLCheck();
+        String resultString = null;
         try {
-            ltlCheck.checkIt(args[0], args[1]);
+           boolean result =  ltlCheck.checkIt(args[0], args[1]);
+            if(result){
+                resultString = "satisfiable";
+            }else {
+                resultString = "unsatisfiable";
+            }
+            System.out.println("The formula is " + resultString + " under the given Kripke structure");
         } catch (FileNotFoundException e) {
             System.out.println("Kripke Structure Ascii File could not be found.\n Usage: ltlcheck formula path_to_kripke_structure_ascii");
         } catch (FormulaNotFoundException e) {

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Class-Path: plexus-build-api-0.0.7.jar antlr4-maven-plugin-4.5.1.jar s
+ isu-guice-3.1.0-no_aop.jar plexus-compiler-api-2.2.jar sisu-inject-be
+ an-2.3.0.jar maven-artifact-3.0.5.jar junit-3.8.1.jar backport-util-c
+ oncurrent-3.1.jar maven-artifact-manager-2.2.1.jar plexus-component-a
+ nnotations-1.5.5.jar maven-plugin-registry-2.2.1.jar sisu-guava-0.9.9
+ .jar maven-profile-2.2.1.jar maven-plugin-api-3.0.5.jar maven-setting
+ s-2.2.1.jar wagon-provider-api-1.0-beta-6.jar plexus-interpolation-1.
+ 11.jar plexus-utils-1.5.15.jar maven-model-3.0.5.jar classworlds-1.1-
+ alpha-2.jar plexus-container-default-1.0-alpha-9-stable-1.jar antlr4-
+ 4.5.1.jar plexus-classworlds-2.4.jar maven-repository-metadata-2.2.1.
+ jar maven-project-2.2.1.jar sisu-inject-plexus-2.3.0.jar
+Main-Class: Main
+

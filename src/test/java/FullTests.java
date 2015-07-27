@@ -168,6 +168,16 @@ public class FullTests {
         LTLCheck checker = new LTLCheck();
         assertThat("property holds", checker.checkIt("(F a)","tests/test5"));
     }
+    @Test
+    public void easy19() throws  FileNotFoundException, FormulaNotFoundException{
+        LTLCheck checker = new LTLCheck();
+        assertThat("property holds", checker.checkIt("(a U (b U c))","tests/test6"));
+    }
+    @Test
+    public void easy20() throws  FileNotFoundException, FormulaNotFoundException{
+        LTLCheck checker = new LTLCheck();
+        assertThat("property doesn't hold", !checker.checkIt("(a U (b U b))","tests/test6"));
+    }
 
 
 

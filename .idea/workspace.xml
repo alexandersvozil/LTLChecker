@@ -1,97 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LTLChecker:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ffee35c6-3886-4115-af02-c37d896f4dfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Formula/BinopWAnd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FormulaNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ModelCheckerTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/NNF.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/NNFTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test5" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LTLChecker.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogic.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicBaseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicBaseVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicLexer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicLexer.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$AndformulaContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$AtomContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$FliteralContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$FormulaContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$LiteralContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$NegatomContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$OrformulaContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$UformulaContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$VformulaContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$VliteralContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser$XformulaContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/LinearTimeLogicVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Parsing/LTLMListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Parsing/LTLMListener.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Formula/NEGFormula.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/NEGAtomFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/ANDFormula.class" afterPath="$PROJECT_DIR$/target/classes/Formula/ANDFormula.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/AtomFormula.class" afterPath="$PROJECT_DIR$/target/classes/Formula/AtomFormula.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/Falsum.class" afterPath="$PROJECT_DIR$/target/classes/Formula/Falsum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LTLMVisitor.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LTLMVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicBaseListener.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicBaseListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicBaseVisitor.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicBaseVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicLexer.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicLexer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicListener.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$AndformulaContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$AndformulaContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$AtomContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$AtomContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$FliteralContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$FliteralContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$FormulaContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$FormulaContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$LiteralContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$LiteralContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$NegatomContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$NegatomContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$OrformulaContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$OrformulaContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$UformulaContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$UformulaContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$VformulaContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$VformulaContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$VliteralContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$VliteralContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$XformulaContext.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser$XformulaContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicVisitor.class" afterPath="$PROJECT_DIR$/target/classes/Parsing/LinearTimeLogicVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AsciiTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AsciiTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/FullTests.class" afterPath="$PROJECT_DIR$/target/test-classes/FullTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ModelChecker.class" afterPath="$PROJECT_DIR$/target/classes/ModelChecker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/NEGFormula.class" afterPath="$PROJECT_DIR$/target/classes/Formula/NEGFormula.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Node.class" afterPath="$PROJECT_DIR$/target/classes/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/ORFormula.class" afterPath="$PROJECT_DIR$/target/classes/Formula/ORFormula.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ParserTests.class" afterPath="$PROJECT_DIR$/target/test-classes/ParserTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/UFormula.class" afterPath="$PROJECT_DIR$/target/classes/Formula/UFormula.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/VFormula.class" afterPath="$PROJECT_DIR$/target/classes/Formula/VFormula.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/Verum.class" afterPath="$PROJECT_DIR$/target/classes/Formula/Verum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Formula/XFormula.class" afterPath="$PROJECT_DIR$/target/classes/Formula/XFormula.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/ANDFormula.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/ANDFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/AtomFormula.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/AtomFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/Falsum.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/Falsum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Parsing/LTLMVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/Parsing/LTLMVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LTL/LinearTimeLogic.g4" afterPath="$PROJECT_DIR$/LTL/LinearTimeLogic.g4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicBaseListener.java" afterPath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicBaseListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicBaseVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicBaseVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicLexer.java" afterPath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicLexer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicListener.java" afterPath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicParser.java" afterPath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/Parsing/LinearTimeLogicVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AsciiTest.java" afterPath="$PROJECT_DIR$/src/test/java/AsciiTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FullTests.java" afterPath="$PROJECT_DIR$/src/test/java/FullTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LTLChecker.iml" afterPath="$PROJECT_DIR$/LTLChecker.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ModelChecker.java" afterPath="$PROJECT_DIR$/src/main/java/ModelChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/NEGFormula.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/NEGFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Node.java" afterPath="$PROJECT_DIR$/src/main/java/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/ORFormula.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/ORFormula.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ParserTests.java" afterPath="$PROJECT_DIR$/src/test/java/ParserTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/UFormula.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/UFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/VFormula.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/VFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/Verum.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/Verum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Formula/XFormula.java" afterPath="$PROJECT_DIR$/src/main/java/Formula/XFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LTLChecker.iws" />
@@ -114,46 +40,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FullTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FullTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FullTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40290383">
-              <caret line="153" column="43" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test4">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <caret line="178" column="41" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseAscii.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ParseAscii.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.42696628">
+              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LTLCheck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LTLCheck.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsciiTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AsciiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParserTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ParserTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test5" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test5">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,10 +128,21 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ModelChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="415" column="0" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#7567#7568#0" expanded="false" />
+                <element signature="e#7606#7607#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LTLChecker.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LTLChecker.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,22 +167,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LTLChecker.iml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/Graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/Graph/Buchi.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AsciiTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ModelCheckerTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/BuchiAutomata/Buchi.java" />
         <option value="$PROJECT_DIR$/src/main/java/BuchiAutomata/BuchiNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/LTLCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/ModelChecker.java" />
         <option value="$PROJECT_DIR$/tests/test5" />
         <option value="$PROJECT_DIR$/src/main/java/ParseAscii.java" />
         <option value="$PROJECT_DIR$/tests/test4" />
+        <option value="$PROJECT_DIR$/tests/test6" />
         <option value="$PROJECT_DIR$/src/test/java/FullTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AsciiTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ParserTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/LTLChecker.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -214,6 +194,11 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -235,6 +220,9 @@
     <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -248,6 +236,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -277,69 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LTLChecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LTLChecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LTLChecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LTLChecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LTLChecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LTLChecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,20 +287,23 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FullTests">
+  <component name="RunManager" selected="JUnit.All in LTLChecker">
     <configuration default="false" name="ModelCheckerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="LTLChecker" />
@@ -425,6 +355,27 @@
       <option name="MAIN_CLASS_NAME" value="FullTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in LTLChecker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="LTLChecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -545,6 +496,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/wagon-provider-api-1.0-beta-6.jar" />
       <envs />
       <method />
     </configuration>
@@ -584,16 +536,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ModelCheckerTests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AsciiTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.FullTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in LTLChecker" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FullTests" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ModelCheckerTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AsciiTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in LTLChecker" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FullTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ModelCheckerTests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AsciiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -612,7 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1971" y="24" width="1869" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -622,10 +576,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4236111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17559524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28517923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18084536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -694,23 +648,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/FullTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AsciiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,7 +660,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#7567#7568#0" expanded="false" />
+            <element signature="e#7606#7607#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -735,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="101" column="76" selection-start-line="101" selection-start-column="76" selection-end-line="101" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,7 +691,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -763,9 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,7 +708,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,7 +726,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#7567#7568#0" expanded="false" />
+            <element signature="e#7606#7607#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,9 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,29 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#623#624#0" expanded="false" />
-            <element signature="e#662#663#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#847#848#0" expanded="false" />
-            <element signature="e#887#888#0" expanded="false" />
-            <element signature="e#911#912#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#989#990#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-            <element signature="e#1053#1054#0" expanded="false" />
-            <element signature="e#1102#1103#0" expanded="false" />
-            <element signature="e#1131#1132#0" expanded="false" />
-            <element signature="e#1171#1172#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-            <element signature="e#1244#1245#0" expanded="false" />
-            <element signature="e#1273#1274#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +772,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="221" column="23" selection-start-line="221" selection-start-column="23" selection-end-line="221" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#7567#7568#0" expanded="false" />
+            <element signature="e#7606#7607#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,9 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,29 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#623#624#0" expanded="false" />
-            <element signature="e#662#663#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#847#848#0" expanded="false" />
-            <element signature="e#887#888#0" expanded="false" />
-            <element signature="e#911#912#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#989#990#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-            <element signature="e#1053#1054#0" expanded="false" />
-            <element signature="e#1102#1103#0" expanded="false" />
-            <element signature="e#1131#1132#0" expanded="false" />
-            <element signature="e#1171#1172#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-            <element signature="e#1244#1245#0" expanded="false" />
-            <element signature="e#1273#1274#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +811,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#7567#7568#0" expanded="false" />
+            <element signature="e#7606#7607#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -945,37 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78018576">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ParserTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12605043">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LTLChecker.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1021,16 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AsciiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.62068963">
@@ -1056,29 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#623#624#0" expanded="false" />
-            <element signature="e#662#663#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#847#848#0" expanded="false" />
-            <element signature="e#887#888#0" expanded="false" />
-            <element signature="e#911#912#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#989#990#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-            <element signature="e#1053#1054#0" expanded="false" />
-            <element signature="e#1102#1103#0" expanded="false" />
-            <element signature="e#1131#1132#0" expanded="false" />
-            <element signature="e#1171#1172#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-            <element signature="e#1244#1245#0" expanded="false" />
-            <element signature="e#1273#1274#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,9 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,17 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,26 +933,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ParseAscii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModelChecker.java">
+    <entry file="file://$PROJECT_DIR$/tests/test4">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="415" column="0" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1162,31 +963,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ParseAscii.java">
+    <entry file="file://$PROJECT_DIR$/tests/test5">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test4">
+    <entry file="file://$PROJECT_DIR$/tests/test6">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FullTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40290383">
-          <caret line="153" column="43" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="178" column="41" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AsciiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModelChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="e#7567#7568#0" expanded="false" />
+            <element signature="e#7606#7607#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LTLChecker.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42696628">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>LTLChecker:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LTLChecker</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: backport-util-concurrent:backport-util-concurrent:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
